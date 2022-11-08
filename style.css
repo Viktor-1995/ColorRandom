@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
+}
+.color{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.color h2{
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    transition: background 0.5s;
+}
+.color h2:hover{
+    background-color: rgba(0,0 ,0 , 0.1);
+    cursor: pointer;
+
+}
+.color button{
+    border: none;
+    background-color: transparent;
+    font-size: 1.5rem;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background 0.5s;
+}
+.color button:hover{
+    background-color: rgba(0,0 ,0 , 0.1);
+    cursor: pointer;
+}
+.spacebtn-wrap{
+    position: absolute;
+    top:50%;
+    left:calc(50% - 448px / 2);
+    font-size: 2rem;
+    opacity: 0.5;
+}
